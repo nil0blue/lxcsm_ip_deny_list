@@ -23,6 +23,8 @@ A liferay.conf file is created using the Default liferay.conf supplied in LXC SM
 
 A startup script replace_env.sh is supplied which checks the **LCP_DENY_LIST** environment variable and replaces the value in liferay.conf. 
 
+After this initial deployment, any time you need to block an IP, simply change the Environment variable to include the new IP in the list.
+
 ## Additional Information
 This code has been tested in a LXC SM Project with stack version 5.x
 
